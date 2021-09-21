@@ -1,0 +1,144 @@
+Kartoanas algoritmi
+	https://www.toptal.com/developers/sorting-algorithms
+Naivā metode
+	Meklē mazāko/atbilstošāko elementu un to pārvieto uz pirmo vietu nesakārtotajā daļā, tad to apzīmē kā sakartoto daļu.
+Burbuļu/apmaiņas metode
+	Salīdzina ar pa kreisi esošo un ja palabi esošais ir lielāks, tad apmainās vietām un iet līdz galam un sāk no jauna.
+Šella metode
+
+
+PD
+1. variants
+
+------------------------------------------------------------------------
+
+Replit
+
+------------------------------------------------------------------------
+
+MI (AI)
+
+(.py)
+x = open("dati.txt", 'w')
+saturs = x.write("Ziema ir prom.")
+x.close()
+
+y = open("dati.txt")
+saturs = y.read()
+y.close()
+
+print(saturs)
+
+------------------------------------------------------------------------
+strip() noņem rakstzīmes 
+
+loģiskie operatori
+and or
+
+------------------------------------------------------------------------
+x = str(3) #simbols (neder matem, der vardiem
+y = int(3) #integer (veseli sk
+z = float(3) #mantisu un 10 pakāpi (sakitilis at kommatu
+
+inport math #papildus matem funkcijas
+
+x=math.sqrt(64)
+
+------------------------------------------------------------------------
+x= bool(2) # true/false
+
+------------------------------------------------------------------------
+13.05.21
+Kļūdu lab.
+
+nelieto latviešu burtus mainīgajos
+------------------------------------------------------------------------
+Darbs ar failiem
+134-136lpp konspekts
+
+intertool - funkcija kas rad iteratorus efektīvai savienošanai
+
+/n - jauna rindkopa
+
+def x(
+x("abc.txt") -makes a seperet file
+
+from shutil import copyfile
+copyfile("from", "where")
+
+------------------------------------------------------------------------
+konspekts (134-136)
+
+Galvenās darbības ar failu:
+	reading
+	writing
+Lai veiktu darbības faila tas ir nosākiuma jāatver(open) un pēc tam jāaizver(close)
+Failu raksta:
+	absalūti (C:/src/...) #visā ierīcē
+	relatīvi (fname.txt) #programas folderī
+
+f = open("fname", "mode"
+mode:
+	r- default
+	w- read
+	a- open after edit
+	rb, wb, ab- in binary
+	r+, w+, a+ - both
+	rb+, ... - both in binary
+f.close()
+if wierd letters
+f= open("fname", encoding"utf-8")
+
+‘·’- gap
+‘¶’ - "Enter key"
+‘§’ - end of the file
+
+------------------------------------------------------------------------
+konspekts (25-44)
+
+goal
+	key words(int, return, import...)
+	id
+	literals(konstats)
+		nr
+		nr with comma
+		symbol(text)
+		true false
+	operation symbol
+id- name of veriable, function etc.
+keywords- pre-defined words (and, as, for, def...)
+literals- veriables value
+intialization- veriables first value
+	a= None (empty ver.)
+operator- type of codes work(name of the codes task)
+	arithmatich
+	logic
+	compear
+	asign
+priority- what to do first("Tab key")
+
+Python constraction
+	head
+	blocks
+	pre-write
+		simple(one set of function)
+		compound(function in a function)
+
+data types
+	nr
+		int
+		float
+	logic
+	str
+
+assignment- giving veriable a value
+expresions- calculation with order ("()";^;/*:+-))
+nr expresions- expresions with "import math"
+
+Input output (print(), input())
+
+Branching
+	what is under what ("Tab key")
+		order of work
+logic expresions- expresions with "<, <=, >, >=, !=, =="
+		(result: true, flase)
