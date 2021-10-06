@@ -142,3 +142,25 @@ Branching
 		order of work
 logic expresions- expresions with "<, <=, >, >=, !=, =="
 		(result: true, flase)
+---------------------------------------------------------
+Versiju kontrole
+
+viens no pašlaik izplatītākais ver. control rīks ir = GIT
+
+repozitorjs-datu telpa
+dakšošana(fork)-darba clonēšana un darba contributions
+commit-git iekšā esoša versijas sistēmu saglabājums
+
+Līdzība
+gits-local
+github-cloud
+Atšķirības
+gits-nonliniar work flow (works for code)
+github-tīmekļa mitināšanas pakalpojums git-am (works for code distributing/access)
+
+---------------------------------------------------------
+python
+write and read from a file               (MG.134.lpp)
+
+files=open('name', 'methods')
+methods: r- read, w- write(delete before writing), a- append (w-(but dousn't delete plus crate a file if it doousn't exist) x- create
