@@ -182,3 +182,59 @@ t.penup() -stop drawing when moveing)
 t.pendown() -continue
 t.clear - ctrl+z
 t.reset - dealte all
+
+--------------------------------------------------------
+MatPlotLib (math plot liblary)
+
+markers o; v; p;
+line types :r; -.r; --r
+	linestyle= "example" -alternet way
+ms = nr -marker size
+mec = 'color' - outline color
+mfc = 'color' - marker color
+linewidth = 'nr'
+
+extra lines
+	n arrays
+	n plt.plot
+	
+	x1-n, y1-n arrays
+	plt.plot([x1, y1, xn, yn])
+plt.show() draw the graph (always included pref. at the end)
+plt.title('example')
+plt.xlabel('on x axes')
+plt.ylabel('on y axes') - 
+
+font1 = {'family':'serit','color':'red'} - costom font
+plt.title/label ('title for the next graph', fontdict= font1, loc= 'left')
+plt.subtitle ('title for all graphs')
+
+plt.grid(color='example', linestyle= , linewidth) - ads grid for eas of reading thr graph 
+
+multiple graphs
+	plt.subplot (size, stack, order nr)
+		size- heading princip of smaller nr the bigger graph
+		stack- 1 vertical, 2horizontal
+		
+
+color palet in data display/visualation
+	plt.colorbar - heat map, needs 3rd arrey for one graph
+	
+line graphs
+	x=np.arrey(["label1", "apples", 'c'])
+	plt.bar(x,y) - barh(horizontal), bar (vertical)
+	plt.bar(x,y, color='r')
+
+histograms
+	x=np.random.normal(170, 10, 250)
+	plt.hist(x)
+
+pie garphs
+	plt.pie('array') - start x axis (3 o'clock), move anti-clockwise
+	labels
+	explode - arrey with nr, distance that part pulled out
+	
+draw function graphs
+	import math
+
+full list of propaties - https://matplotlib.org/2.0.2/users/pyplot_tutorial.html
